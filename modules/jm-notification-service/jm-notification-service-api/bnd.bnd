@@ -1,0 +1,7 @@
+Bundle-Name: jm-notification-service-api
+Bundle-SymbolicName: com.liferay.notification.service.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.notification.service.service
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../jm-notification-service-service/service.xml

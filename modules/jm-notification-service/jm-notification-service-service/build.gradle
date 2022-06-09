@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:jm-notification-service:jm-notification-service-api")
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: "com.liferay", name: "com.liferay.product.navigation.user.personal.bar.web"
+}
+
+buildService {
+	apiDir = "../jm-notification-service-api/src/main/java"
+}
+
+group = "com.liferay.notification.service"
